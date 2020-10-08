@@ -22,7 +22,7 @@ void setHardDisk(HardDisk h) {
 }
 void show() {
 	System.out.println("CPU brand is "+cpu.getType()+".");
-	System.out.println("CPU speed is "+cpu.getSpeed()+" HZ.");
+	System.out.println("CPU speed is "+cpu.getSpeed()+" GHZ.");
 	System.out.println("CPU three-level buffer is "+cpu.getRam()+"MB.");
 	System.out.println("CPU Cores is "+cpu.getCores()+"cores.");
 	System.out.println("SSD HardDisk is "+HD.getSSDAmount()+" G.");
