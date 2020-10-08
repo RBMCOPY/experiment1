@@ -3,20 +3,20 @@
 # JAVA实验二
 # 阅读程序
 ## 实验目的
-1.掌握类的设计
-2.写出程序并初步学会调试
-3.利用GitHub平台写实验报告
+1.掌握类的设计  
+2.写出程序并初步学会调试  
+3.利用GitHub平台写实验报告  
 ## 实验过程
-1.首先按照实验要求和PC,CPU，HardDisk类关联他UML图创建以PC,CPU,HardDisk,Test为类名的四个类，Test为主类。
-2.根据要求设置变量.
-3.设置主类：main方法中创建一个 CPU对象cpu。
-main方法中创建一个HardDisk对象disk。
-main方法中创建一一个 PC对象pc。
-pc调用setCPU(CPU c)方法，调用时实参是cpu。
-pc调用setHardDisk (HardDisk h)方法，调用时实参是disk.
-pc调用show(方法。
-4.根据要求，每个类增加1~2个构造方法。
-5.更改部分数值访问权限。
+1.首先按照实验要求和PC,CPU，HardDisk类关联他UML图创建以PC,CPU,HardDisk,Test为类名的四个类，Test为主类。  
+2.根据要求设置变量。
+3.设置主类：main方法中创建一个 CPU对象cpu。  
+main方法中创建一个HardDisk对象disk。  
+main方法中创建一一个 PC对象pc。  
+pc调用setCPU(CPU c)方法，调用时实参是cpu。  
+pc调用setHardDisk (HardDisk h)方法，调用时实参是disk.  
+pc调用show(方法。  
+4.根据要求，每个类增加1~2个构造方法。  
+5.更改部分数值访问权限。  
 ## 核心方法
 （1）  
 public CPU(double speed, String type, int Ram, int Cores) {  
